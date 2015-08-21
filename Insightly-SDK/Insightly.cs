@@ -1209,7 +1209,7 @@ namespace InsightlySDK{
 		/// <c>TASK_ID</c> of task to delete.
 		/// </param>
 		public void DeleteTask(int id){
-			this.Delete("/v2.1/Tasks/" + id).ToString();
+			this.Delete("/v2.1/Tasks/" + id).AsString();
 		}
 		
 		
